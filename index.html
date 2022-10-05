@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link href="//db.onlinewebfonts.com/c/f3258385782c4c96aa24fe8b5d5f9782?family=Old+English+Text+MT" rel="stylesheet" type="text/css"/>
+    <title>Сайт Визитка</title>
+</head>
+
+<header>
+    <a class="topnavimg" href="#homeus"><img src="images/Logo.jpg" height="100x" width="100px" alt="Logotip"></a>
+    <a class="topnavv" href="#Skiflocks">Навыки</a>
+    <a class="topnavv" href="#homeus2">Обо мне</a>
+    <a class="topnavv" href="#Portfollio">Портфолио</a>
+    <a class="topnavv" href="https://vk.com/im?sel=471973409">Связь</a>
+</header>
+
+<body>
+    <div class="Home" id="homeus" >
+        <img src="images/OboMne.jpg" class="homeimg" height="500px" alt="OboMne">
+
+        <div class="textcontainerfirst">
+            <h2 class="custom-colored-h2">WEB-разработчик</h2>
+            <h1 class="custom-colored-h1">Харитоненко Валерий</h1>
+            <p><br>Создаю сайты с уютным дизайном и современным интерфейсом, <br>привлекательным для пользователей и <b>удобным для вас и ваших услуг.</b></p>
+            <a href="https://vk.com/im?sel=471973409"><button class="Contacts">Написать</button></a>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="Skills" id="Skiflocks">
+        <h1 class="Whiters">Мои Навыки</h1>
+         <div class="columns">
+            <div class="column-1">
+
+                <div class="container">
+                    <h2 class="Whiters">WEB-дизайнер</h2>
+                    <img src="images/webdesigner.png" class="iconka" height="100px" width="100" alt="WebDesignerMen">
+                    <p class="Whiters">Создам любой дизайн для вашего <br> сайта учитывая ваши пожелания.</p>
+                </div>
+                
+                <div class="container">
+                    <h2 class="Whiters">Frontend-разработчик</h2>
+                    <img src="images/Frontend.png" class="iconka" height="100px" width="100" alt="FrontendMen">
+                    <p class="Whiters" id="Gydra">Пишу код с нуля на языках HTML, CSS, JS. <br> Подстрою и оптимизирую для каждого браузера.</p>
+                </div>
+    
+            </div>
+    
+            <div class="column-2">
+                
+                <div class="container">
+                    <h2 class="Whiters">Любые задачи</h2>
+                    <img src="images/Tryhard.png" class="iconka" height="100px" width="100" alt="TryHardMen">
+                    <p class="Whiters">Выполню задачи любого уровня по сложности <br> например: калькулятор, корзину, поиск и <br> отправка заявок клиентов в чат вашей компании.</p>
+                </div>
+    
+                <div class="container">
+                    
+                    <h2 class="Whiters">Загрузка на хостинг и продвижение</h2>
+                    <img src="images/Hosting.png" class="iconka" height="100px" width="100" alt="HostingMen">
+                    <p class="Whiters">В мои услуги входит то, что я помогу вам <br> загрузить ваш сайт в всемирную сеть интернет <br> и продвигать к верхним строчкам.</p>
+                </div>
+    
+            </div>
+
+         </div>   
+
+    </div>
+
+    <div class="Home" id="homeus2" >
+        
+        <div class="textcontainersecond">
+            <h2 class="custom-colored-h2">FRONTEND-разработчик</h2>
+            <h1 class="custom-colored-h1">Харитоненко Валерий</h1>
+            <p>Я с детсва любил компьютер и всё что с ним связано. <br>Мне всю жизнь были интересны программы, сайты и их<br> написание, поэтому ещё в раннем возрасте я поступил<br> в "Мытищинскую Школу Программирования" и обучался<br> там 7 лет, на данный момент прохожу обучение в<br> SkillFactory на FrontEnd специальность. Мои навыки<br> позволяют мне создавать сайты для любой компании и физлица.</p>
+            <a href="https://vk.com/im?sel=471973409"><button class="Contacts">Написать</button></a>
+        </div>
+        <img src="images/ForHome.jpg" class="homeimg2" height="500px" alt="ForHome">
+    </div>
+
+    <div class="Skills" id="Portfollio">
+        <h1 class="Whiters">Портфолио</h1>
+         <div class="columns">
+
+                <div class="container">
+                    <h2 class="Whiters">Будет разработано позже</h2>
+                    <img src="images/webdesigner.png" class="iconka" height="100px" width="100" alt="WebDesignerMen">
+                    <p class="Whiters">Когда оно появится :)</p>
+                </div>
+
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js%22%3E"></script>
+        <script>
+        $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+    
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+    
+            // Store hash
+            var hash = this.hash;
+    
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function(){
+    
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+            });
+            } // End if
+        });
+        });
+        </script>
+</body>
+
+<footer>
+    <p>Site builds in 2022, all rights maybe reserved :)</p>
+</footer>
+
+</html>
